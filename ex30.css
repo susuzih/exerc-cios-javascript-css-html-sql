@@ -1,0 +1,27 @@
+*{
+ margin: 0;
+ padding:0;
+ border: 0; 
+}
+
+body{
+ width: 400px; 
+  right: 200px; 
+background-color: rgb(140, 110, 146); 
+ grid-template-rows: 4 /5;
+ 
+}
+div{
+width: 500px;
+height: 200px;
+background-color: rgb(209, 199, 206);
+}
+p{
+font-size: 30px;  
+font-family: 'Times New Roman', Times, serif;
+}
+button[type="button"]:focus{
+    width: 80px;
+    text-align: center;
+    background-color: azure;
+}
