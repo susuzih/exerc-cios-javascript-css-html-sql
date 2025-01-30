@@ -1,0 +1,17 @@
+body{
+    font-size: 1em;
+}
+
+p{
+    color:black;
+    font-size: 18px;
+
+}
+.azul{
+    color:blue;
+    font-size: 18px;
+}
+#p-dois, #p-tres{
+    color:orange;  
+
+}
