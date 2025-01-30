@@ -1,1 +1,1 @@
-# exerc-cios-javascript-css-html-sql
+# exercicios- javascript -css -html -sql
