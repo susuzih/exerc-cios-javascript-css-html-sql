@@ -1,0 +1,75 @@
+h1{
+ text-align: center;  
+ border: 3px solid black;
+ font-family: Georgia, 'Times New Roman', Times, serif; 
+ background-color: palevioletred;
+ 
+}
+img{
+ border: 6px solid palevioletred;   
+}
+body{
+width: 1220px;
+height: 300px; 
+background-color:pink ;   
+}
+h3{
+text-align: center; 
+background-color: palevioletred; 
+border: 3px solid black;
+}
+label{
+ font-style: oblique;   
+ 
+}
+fieldset{
+ border: 3px solid rgb(203, 139, 161);   
+ width: 1000px;
+ 
+}
+#mouse{
+  width: 400px;  
+}
+#imgs{
+ width: 1220px;
+ height: 400px;
+ background-color: pink;   
+}
+#img{
+width: 800px;    
+
+}
+#imagem{
+  height:200px;  
+}
+#entrar{
+  width: 250px;  
+}
+div{
+  width: 200px; 
+  float: left; 
+}
+div{
+ width: 1000px;  
+ height: 30px;
+ float: left;
+}
+#div{
+float: flex-end;
+}
+.id{
+ width: 200px;
+ float: right;  
+ text-align: right; 
+}
+.ti{
+ float: left;
+}
+input[type="text"]:focus{
+text-align: center;
+}
+button[type="submit"]:focus{
+  width: 80px;  
+  background-color: palevioletred;
+}
+ 
