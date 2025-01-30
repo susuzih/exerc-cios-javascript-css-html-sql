@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;  
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto(80px,100px);
+}
+.item1{
+    background-color: rgb(80, 124, 124);
+    text-align: center;
+    padding: 20px;
+}
+.item2{
+    background-color: rgb(24, 135, 155);
+    text-align: center;
+    padding: 20px;
+}
+.item3{
+    background-color: rgb(148, 19, 40);
+    text-align: center;
+    padding: 20px;
+}    
+
+
