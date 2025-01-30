@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex37.css">
+</head>
+<body>
+    <br><h1>Formulário de Cadastro</h1><br>
+    <form action="dodos_do_form" method="post"></form>
+    <div>
+    <fieldset>
+
+        <legend>Dados Pessoais</legend><br>
+        <label for="NomePaciente" >Nome do Paciente:</label>
+        <input type="text" id="Nome"><br>
+        <label for="DataNascimento">Dt.Nasc (dd/mm/aaaa):</label>
+        <input type="date" required><br>
+        <label for="telefone">Telefone de Contato:</label>
+        <input type="tel" required><br>
+        <br>
+        <button onclick="enviarFormulario()">Enviar</button>
+
+   
+    </fieldset>
+     </div>
+    <script src="ex37.js"></script>
+</body>
+</html>
