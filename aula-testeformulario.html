@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08/11</title>
+    <link rel="stylesheet" href="/aula teste7/CSS/aula-testformulario.css">
+</head>
+<body>
+    <h1 id="titulo">Aula de formulários</h1>
+
+   
+    <!--label,input,textarea,button-->
+
+    <h1 style="text-align: center;">Escola Virtual</h1>
+    <h2 style="text-transform: capitalize;" id="subtitulo">Formulários de pré-matricula</h2>
+
+     <form id="meuform" action="endereco-do-servidor" method="post">   
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        
+        
+    <label for="nomeAluno">Nome do aluno</label>
+    <input type="text" id="nomeAluno" nome="Nome do aluno" placeholder="Ex:fulano da silva" required /><br/>
+
+    <label for="dtNasc">Dt.Nasc(dd/mm/aaaa):</label>
+   <input type="date"id="dtNasc" nome="Data de Nascimento"><br>
+    
+    <label for="nomeMae">Nome da Mãe</label>
+    <input type="text" id="nomeMae" nome="Nome da mae" placeholder="Nome da mae completo" required ><br/>
+
+    <label for="nomePai">Nome do Pai</label>
+    <input type="text" id="nomePai" nome="Nome do pai" placeholder="Nome do pai completo"><br/>
+
+    <label for="telDDD">Tel DDD</label>
+    (<input type="text" id="telDDD" name="Tel DDD" style="width: 20px;" maxlength="2" placeholder="99" required>)
+
+    <label for="tel">Tel</label>
+    <input type="tel" id="tel" name="tel" maxlength="9" placeholder="Ex.:9999-9999" required>
+
+    <label for="Ramal">Ramal</label>
+    <input type="number" id="Ramal" name="ramal"><br>
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="E-mail" placeholder="Ex.:nome@seuemail.com"required>
+</fieldset>
+
+<fieldset>
+    <legend>Informação de Matrícula</legend>
+    <div id="div-serie">
+    <label for="Serie">Serie</label>
+    <select name="Matrícula" id="Serie">
+    <option value="">Selecione Um</option>
+    <option value="">Pré-Escolar</option>
+    <option value="">Escolar</option>
+    <select>
+  </div>
+  <div id="div-turno">
+  <label for="turno">Turno</label>
+  <br>
+  <input type="radio"id="manha"name="turno" value="manhã">manhã<br>
+  <input type="radio"id="tarde"name="turno" value="tarde">tarde<br>
+  </div>
+  <div id="div-atv-extra">
+  <label for="">Atividades Extracurriculares</label>
+  <br>
+  <input type="checkbox"name="atividades"value="info">Informática<br>
+  <input type="checkbox"name="atividades"value="musi">Música<br>
+  <input type="checkbox"name="atividades"value="ball">Ballet<br>
+  <input type="checkbox"name="atividades"value="pint">Pintura<br>
+  <input type="checkbox"name="atividades"value="judo">Judô<br>
+  <input type="checkbox"name="atividades"value="fute">Futebol<br>
+
+  </div>
+</fieldset>
+
+<div id="div-botões">
+   <input type="submit" onclick="validarCampos()" value="Envia formulário">
+   <input type="reset"value="limpa campos">
+</div>
+ </form>
+</form>
+
+<script src="../loja-infocell/public/js/aula-testeformulario.js"></script>
+</body>
+</html>
