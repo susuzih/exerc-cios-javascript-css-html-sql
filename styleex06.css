@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding:0;
+  border: 0;
+}
+
+body{
+  display: inline;
+  font-size:small ;
+  font-family:;
+}
+  
+
+
+
+
+#cx1{
+    width: 22%;
+    height: 400px;
+    background-color: rgb(124, 12, 96);
+    color:white;
+    margin-bottom :10px;
+     margin-left:20px;
+     padding-left:20px;
+     padding-top: 20px;
+     padding-right: 40px;
+     float: left;
+     box-sizing: border-box;
+     padding-left: 50px;
+     overflow: visible;
+     border-width: 6px;
+     border-style: groove;
+     border-color:blue;
+     border-top-color: rgb(201, 74, 74);
+     border-bottom-color:rgb(201, 74, 74) ;
+     border-left-color:rgb(201, 74, 74) ;
+     border-right-color: rgb(201, 74, 74);
+     text-align: center;
+     font-size:30px;
+     font-family: cookie,Arial, Helvetica, sans-serif;
+     border-bottom-left-radius: 30px; /*borda redonda*/
+     border-top-left-radius: 30px;
+     
+ }
+ #cx2{
+    width: 74%;
+    height: 400px;
+    background-color:rgb(178, 159, 184);
+    display:block;
+    color:white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left:  50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    overflow: visible ;
+    float: right;
+    font-family: "cookie",Arial, Helvetica, sans-serif;
+    border-width: 6px;
+    border-style: solid;
+    border-color:rgb(196, 86, 172);
+    border-bottom-color: rgb(216, 78, 193);
+    border-bottom-left-radius: 30px; /*borda redonda*/
+    border-top-left-radius: 30px;
+    text-align: center; 
+    font-size:30px;
+  
+}
+#rodapé{
+  width: 1000px;
+  height: 250px;
+  float: right; 
+  background-color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 32px;
+  
+}

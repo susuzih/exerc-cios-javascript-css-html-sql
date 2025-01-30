@@ -1,0 +1,95 @@
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+body{
+  width: 1000px; 
+  padding: 50px;
+}
+#div-pai{
+ width: 1550px;
+ height: 450px;
+ background-color:white;   
+}
+
+.direita{
+ float: right;
+}
+
+.esquerda{
+    float: left;
+
+}
+#div1{
+  width: 700px;
+  height: 215px;
+  background-color: rgb(100, 51, 51);
+  margin-bottom: 20px;
+  font-size: 72px;
+  font-weight: bold;
+  box-sizing:border-box;
+}
+#div2{
+    width: 250px;
+    height: 450px;
+    background-color: rgb(27, 29, 163);
+    float:right; /*flutua a direita*/
+    font-size: 72px;
+    font-weight: bold;
+    box-sizing:border-box;
+}
+#div3{
+    width: 700px;
+    height: 215px; 
+    font-weight: bold;
+    padding: 30px;
+    font-size: 72px;
+    box-sizing: border-box;
+    background-color: rgb(105, 29, 29)
+
+    
+    
+}
+#div-rodapé-pai{
+   width: 1550px; 
+   height: 250px;
+  /* background-color: black;*/
+   margin-top: 20px;
+   margin-bottom: 50px;
+   font-size: 72px;
+   font-weight: bold;
+   box-sizing:border-box;
+}
+
+#div4{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(124, 24, 63);
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    box-sizing:border-box;
+}
+
+#div5{
+    width: 250px;
+    height: 250px;
+    background-color:rgb(194, 197, 34);
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    box-sizing:border-box;
+}
+
+#div6{
+    width: 250px;
+    height: 250px;
+    background-color:rgb(182, 88, 146);
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    box-sizing:border-box;
+}
+    
