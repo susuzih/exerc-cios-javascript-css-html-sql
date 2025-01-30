@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto(80px,100px);
+    gap: 15px;
+}
+  
+.item1{
+background-color: rgb(181, 43, 199);
+text-align: center;
+padding: 20px;
+}
+
+.item2{
+background-color: rgb(50, 93, 156);
+text-align: center;
+padding: 20px;
+}
+
+.item3{
+background-color: aquamarine;
+text-align: center;
+padding: 20px;
+}
